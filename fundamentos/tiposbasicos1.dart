@@ -8,4 +8,18 @@ main() {
   double n3 = double.parse('12.45');
 
   print(n1 + n2 + n3);
+
+  bool estaChovendo = true;
+  bool estaFrio = false;
+
+  print(estaChovendo && estaFrio);
+
+  dynamic z = "Um texto legal";
+  print(z);
+
+  z = 123;
+  print(z);
+
+  z = false;
+  print(z);
 }
